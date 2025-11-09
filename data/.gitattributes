@@ -1,2 +1,0 @@
-*.csv filter=lfs diff=lfs merge=lfs -text
-data/TMDb_data_from_1990-2025.zip filter=lfs diff=lfs merge=lfs -text
