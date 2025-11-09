@@ -1,0 +1,58 @@
+﻿# ------------------------------
+# Python / ML Project .gitignore
+# ------------------------------
+
+# Byte-compiled / cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+.env
+.venv/
+env/
+venv/
+*.egg-info/
+
+# Model artifacts (LightGBM / CatBoost / Optuna)
+*.cbm                # CatBoost model files
+*.txt                # LightGBM model dumps
+*.json               # Model configs (if generated)
+*.pkl
+*.joblib
+*.model
+*.bin
+*.sav
+*.dat
+*.npy
+*.npz
+*.csv
+*.db                 # Optuna / SQLite storage files
+
+# Optuna logs / dashboard DB
+optuna_study.db
+optuna_storage/
+*.sqlite
+
+# Experiment logs / outputs
+logs/
+runs/
+results/
+output/
+plots/
+figures/
+reports/
+*.png
+*.pdf
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# OS-specific
+.DS_Store
+Thumbs.db
